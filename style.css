@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(98,195,17);
+    padding: 0;
+    margin: 0;
+}
+.main-nav,
+.logo,
+.nav-links {
+    display: flex;
+    
+}
+.logo {
+    width: 50%;
+}
+.nav-links {
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon-background {
+    color: #72c929;
+}
+.icon-background-cart {
+    color: crimson;
+}
+.fa-stack {
+    margin-top: 2%;
+    
+}
+.fa-bars,
+.fa-heart,
+.fa-shopping-cart {
+    color: white;
+}
+.fa-stack > * {
+    margin-right: 10%;
+}
+.logo p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-left: 14%;
+}
