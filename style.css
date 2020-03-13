@@ -106,8 +106,21 @@ body {
 }
 .product {
     border: 0.5px solid gray;
-    margin:10%;
+    height: 200px;
     border-radius: 12px;
+    margin-right: 50px;
+}
+.carousel {
+    background: white;
+    height: 450px;
+    margin-top: 10%;
+}
+.carousel-cell {
+    width: 75%;
+    height: 100%;
+    
+   
+    
 }
 .product .fa-heart-o {
     position: relative;
@@ -123,6 +136,7 @@ body {
 .sizes {
     display: flex;
     margin-top: 2px;
+    max-width: 100%;
     
     
 }
