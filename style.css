@@ -20,7 +20,7 @@ header {
 }
 main {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 200px 400px;
+    
 }
 .main-nav {
     display: grid;
@@ -236,6 +236,7 @@ main {
         background: #8C8;
         border-radius: 5px;
     }
+    
     .bride-item img {
         max-width: 100%;
         margin-right: 10%;
@@ -247,7 +248,37 @@ main {
         margin: 0;
     }
 }
+/* user feedback section */
+.user {
+  background-color: white;
+  width: 58%;
+  height: 260px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.header-description {
+  display: flex;
 
+}
+.feedback-text {
+  margin-left: 3%;
+}
+.user-text {
+  margin-left: 5%;
+}
+.user-text h5 {
+  margin-bottom: 0;
+}
+.user-feedback h4 {
+  color:  white;
+}
+.header-description img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
 /* Products page */
 
 .upper-container {
