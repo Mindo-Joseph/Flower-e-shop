@@ -172,8 +172,15 @@ main {
   margin-right: auto;
   max-width: 100%;
 }
-@media only screen and (max-width: 768px){
-    .offer-products {
+@media only screen and (max-width: 767px){
+    .offer-products,
+    .brides,
+    .user-feedback,
+    .map-location, 
+    .email-button,
+    .links-row1,
+    .links-row2,
+    .copyright {
         display: none;
     }
 }
@@ -184,13 +191,13 @@ main {
     .description {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        margin-left: 8%;
-        margin-top: 30%;
+        margin-left: 5%;
+        margin-top: 5%;
     }
     .text {
         display: grid;
         grid-column: 1 / 2;
-        margin-top: 10%;
+        margin-top: 40%;
         
     }
     .banner-image {
@@ -202,6 +209,10 @@ main {
     .banner-image img {
         margin-top: 0;
         margin-bottom: 20%;
+    }
+    .offer-products {
+      background-color: white;
+      display: flex;
     }
     
     .text-description {
