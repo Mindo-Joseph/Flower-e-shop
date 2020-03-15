@@ -141,6 +141,7 @@ main {
     grid-column: 1 / -1;
     grid-row: 2 / -1;
 }
+
 .title h3 {
   color: white;
   font-size: 18px;
@@ -171,11 +172,18 @@ main {
   margin-right: auto;
   max-width: 100%;
 }
+@media only screen and (max-width: 768px){
+    .offer-products {
+        display: none;
+    }
+}
 @media only screen and (min-width: 768px){
+    body {
+        overflow-y: scroll;
+    }
     .description {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        grid-template-rows: 200px;
         margin-left: 8%;
         margin-top: 10%;
     }
@@ -196,6 +204,48 @@ main {
         margin-bottom: 20%;
     }
     
+    .text-description {
+        display: grid;
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        margin-left: 10%;
+    }
+    
+    .number-circle1 {
+        position: relative;
+        top: 0;
+        right: 55%;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        padding: 8px;
+        background: green;
+        border: 2px solid #666;
+        color: white;
+        text-align: center;
+        font: 12px Arial, sans-serif;
+    }
+    .title-and-heading {
+        display: flex;
+        flex-direction: column;
+    }
+    .bride-item  {
+        width: 56%;
+        height: 200px;
+        margin-right: 40px;
+        background: #8C8;
+        border-radius: 5px;
+    }
+    .bride-item img {
+        max-width: 100%;
+        margin-right: 10%;
+    }
+    .offer-products h2 {
+        width: 100%;
+    }
+    .title-and-heading h3 {
+        margin: 0;
+    }
 }
 
 /* Products page */
