@@ -212,9 +212,29 @@ main {
     }
     .offer-products {
       background-color: white;
-      display: flex;
+      
     }
-    
+    .promotional-text {
+      margin-left: 5%;
+    }
+    .flowers-on-offer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .flower1 {
+      display: grid;
+      grid-column: 1 / 2;
+      background-color: aqua;
+    }
+    .flower2 {
+      display: grid;
+      grid-column: 2 / -1;
+      background-color: brown;
+    }
+    .item-on-discount {
+      border-radius: 5px;
+      border: 2px solid gray;
+    }
     .text-description {
         display: grid;
         grid-column: 1 / -1;
@@ -224,8 +244,8 @@ main {
     
     .number-circle1 {
         position: relative;
-        top: 0;
-        right: 55%;
+        top: -15%;
+        left: 85%;
         border-radius: 50%;
         width: 36px;
         height: 36px;
@@ -247,7 +267,14 @@ main {
         background: #8C8;
         border-radius: 5px;
     }
-    
+    .price,.item-on-discount p{
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .item-on-discount img {
+      width: 80%;
+      height: auto;
+    }
     .bride-item img {
         max-width: 100%;
         margin-right: 10%;
