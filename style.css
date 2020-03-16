@@ -493,7 +493,7 @@ footer {
 
 .product {
   border: 0.5px solid gray;
-  height: 200px;
+  height: auto;
   border-radius: 12px;
   margin-right: 4%;
   margin-bottom: 4%;
@@ -507,7 +507,7 @@ footer {
 
 .carousel-cell {
   width: 75%;
-  height: 100%;
+  height: auto;
 }
 
 .product .fa-heart-o {
@@ -536,7 +536,6 @@ footer {
   padding: 5px 21px;
   text-align: center;
   cursor: pointer;
-  font-size: 1rem;
   color: #000;
 }
 
