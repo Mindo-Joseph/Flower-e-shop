@@ -526,6 +526,11 @@ footer {
 }
 
 @media only screen and (min-width: 768px){
+  .upper-container,
+  .product-cards-container,
+  .carousel {
+    display: none;
+  }
 
 }
 
