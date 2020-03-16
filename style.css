@@ -721,15 +721,33 @@ footer {
   color: #fff;
 }
 @media only screen and (min-width: 768px){
-  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
   .discount-and-image {
     display: flex;
-    flex: 0 0 50%;
+    flex: 0 0 55%;
   }
   
+  .selected-product-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 700px;
+  }
   .product-item {
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .similar-flowers {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+  }
+  .similar-text {
+    margin-left: 5%;
+    
   }
 
 }
