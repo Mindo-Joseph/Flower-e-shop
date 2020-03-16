@@ -194,6 +194,9 @@ main {
         margin-left: 5%;
         margin-top: 5%;
     }
+    .brides {
+      margin-top: 10%;
+    }
     .text {
         display: grid;
         grid-column: 1 / 2;
@@ -224,6 +227,8 @@ main {
     .flower1 {
       display: grid;
       grid-column: 1 / 2;
+      margin-right: 10%;
+     
       
     }
     .flower2 {
@@ -234,6 +239,7 @@ main {
     .item-on-discount {
       border-radius: 4px;
       border: 1px solid gray;
+      
     }
     .text-description {
         display: grid;
@@ -250,8 +256,8 @@ main {
         width: 36px;
         height: 36px;
         padding: 8px;
-        background: green;
-        border: 2px solid #666;
+        background: rgb(98, 195, 17);
+        border: 2px solid white;
         color: white;
         text-align: center;
         font: 12px Arial, sans-serif;
@@ -270,6 +276,11 @@ main {
     .price,.item-on-discount p{
       margin-bottom: 0;
       padding-bottom: 0;
+      margin-left: 4%;
+    }
+    .brides h3 {
+      color: white;
+      margin-left: 4%;
     }
     .promotional-text h4 {
       margin-bottom: 2%;
@@ -292,7 +303,7 @@ main {
 /* user feedback section */
 .user {
   background-color: white;
-  width: 58%;
+  width: 45%;
   height: 260px;
   margin-right: 10px;
   border-radius: 5px;
@@ -300,6 +311,9 @@ main {
 .header-description {
   display: flex;
 
+}
+.user-feedback {
+  margin-top: 10%;
 }
 .map-location {
   background-color: white;
@@ -317,11 +331,16 @@ main {
 .user-text {
   margin-left: 5%;
 }
+.two-users  {
+  display: flex;
+  justify-content: space-evenly;
+}
 .user-text h5 {
   margin-bottom: 0;
 }
 .user-feedback h4 {
   color:  white;
+  margin-left: 4%;
 }
 .header-description img {
   border-radius: 50%;
@@ -329,6 +348,9 @@ main {
   height: 120px;
   margin-top: 3%;
   margin-left: 3%;
+}
+@media screen only and (min-width: 768px){
+
 }
 /* Footer */
 footer {
