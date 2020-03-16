@@ -228,6 +228,7 @@ main {
 
   .offer-products {
     background-color: white;
+    padding-bottom: 5%;
   }
 
   .promotional-text {
@@ -242,12 +243,14 @@ main {
   .flower1 {
     display: grid;
     grid-column: 1 / 2;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
   .flower2 {
     display: grid;
     grid-column: 2 / -1;
+    margin-right: 5%;
   }
 
   .item-on-discount {
@@ -547,6 +550,8 @@ footer {
 
 .price p {
   font-size: 18px;
+  margin-left: 0;
+  
 }
 
 .price i {
