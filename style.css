@@ -525,6 +525,10 @@ footer {
   margin-left: 4%;
 }
 
+@media only screen and (min-width: 768px){
+
+}
+
 /* Product item page */
 
 .product-item {
