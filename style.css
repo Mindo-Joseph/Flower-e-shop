@@ -551,7 +551,6 @@ footer {
 .price p {
   font-size: 18px;
   margin-left: 0;
-  
 }
 
 .price i {
@@ -692,16 +691,18 @@ footer {
     width: 100%;
   }
 }
-@media only screen and (max-width:767px){
-  .products-tab,.display-products {
+
+@media only screen and (max-width: 767px) {
+  .products-tab,
+  .display-products {
     display: none;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .product {
     width: 29%;
   }
-  
 }
 
 /* Product item page */
@@ -738,23 +739,26 @@ footer {
   justify-content: left;
 }
 
-.colour{
+.colour {
   border: 1px solid #a1a1a1;
   padding: 10px 11px;
   border-radius: 100%;
   margin-right: 2px;
   width: 1%;
 }
+
 .green {
   background-color: rgb(98, 195, 17);
 }
+
 .red {
   background-color: red;
 }
+
 .pink {
   background-color: fuchsia;
-
 }
+
 .aqua {
   background-color: mediumseagreen;
 }
