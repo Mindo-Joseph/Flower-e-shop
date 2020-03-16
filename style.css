@@ -289,6 +289,9 @@ main {
     background: #8c8;
     border-radius: 5px;
   }
+  .flowers-2-3 {
+    display: none;
+  }
 
   .price,
   .item-on-discount p {
