@@ -331,6 +331,9 @@ main {
   .number-circle1 {
     top: -12%;
   }
+  .display-products {
+    width: 100%;
+  }
   .flower2 {
     display: none;
   }
@@ -343,6 +346,12 @@ main {
     max-height: 130px;
     max-width: 150px;
     margin-left: 60%;
+  }
+  .product{
+    width: 28%;
+  }
+  .carousel-cell {
+    width: 39%;
   }
 }
 
@@ -522,7 +531,10 @@ footer {
 .first {
   border: 2px solid green;
 }
-
+.product {
+  margin-right: 4%;
+  margin-bottom: 4%;
+}
 .price {
   display: flex;
 }
@@ -604,10 +616,7 @@ footer {
     width: 39%;
   }
 
-  .product {
-    margin-right: 4%;
-    margin-bottom: 4%;
-  }
+  
 
   .track {
     pointer-events: none;
@@ -782,5 +791,10 @@ footer {
 
   .similar-text {
     margin-left: 5%;
+  }
+}
+@media only screen and (min-width:1024px){
+  .product {
+    width: 29%;
   }
 }
