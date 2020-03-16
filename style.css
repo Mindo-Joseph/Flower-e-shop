@@ -682,7 +682,11 @@ footer {
     width: 100%;
   }
 }
-
+@media only screen and (min-width:1024px){
+  .product {
+    width: 29%;
+  }
+}
 /* Product item page */
 
 .product-item {
@@ -794,7 +798,5 @@ footer {
   }
 }
 @media only screen and (min-width:1024px){
-  .product {
-    width: 29%;
-  }
+  
 }
