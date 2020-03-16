@@ -690,11 +690,16 @@ footer {
     width: 100%;
   }
 }
-
+@media only screen and (max-width:767px){
+  .products-tab,.display-products {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .product {
     width: 29%;
   }
+  
 }
 
 /* Product item page */
