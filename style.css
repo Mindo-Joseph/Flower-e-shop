@@ -570,7 +570,9 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-  .filter-tab {
+  .filter-tab,
+  .similar-text,
+  .similar-flowers {
     display: none;
   }
 }
@@ -720,8 +722,8 @@ footer {
   width: 36px;
   height: 36px;
   padding: 8px;
-  background: green;
-  border: 2px solid #666;
+  background: rgb(98, 195, 17);
+  border: 1px solid white;
   color: white;
   text-align: center;
   font: 12px Arial, sans-serif;
