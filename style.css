@@ -363,6 +363,7 @@ main {
 
   .carousel-cell {
     width: 39%;
+    height: 60%;
   }
 }
 
@@ -735,13 +736,25 @@ footer {
   justify-content: left;
 }
 
-.color-green {
-  border: 2px solid #a1a1a1;
+.colour{
+  border: 1px solid #a1a1a1;
   padding: 10px 11px;
-  background: green;
   border-radius: 100%;
   margin-right: 2px;
   width: 1%;
+}
+.green {
+  background-color: rgb(98, 195, 17);
+}
+.red {
+  background-color: red;
+}
+.pink {
+  background-color: fuchsia;
+
+}
+.aqua {
+  background-color: mediumseagreen;
 }
 
 .additionl-feature {
