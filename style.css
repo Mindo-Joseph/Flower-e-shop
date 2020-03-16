@@ -582,6 +582,7 @@ footer {
   .prices-box {
     display: flex;
     margin-top: 5%;
+    margin-bottom: 10%;
     
 
   }
@@ -591,6 +592,18 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     border: 2px solid rgb(98, 195, 17);
+  }
+  .colors {
+    
+    margin-left: 5%;
+    margin-right: 2%;
+  }
+  .items-check {
+    display: flex;
+   
+  }
+  .items-check label {
+    margin-left: 4%;
   }
   .thumb {
     cursor: pointer;
@@ -604,6 +617,10 @@ footer {
     position: absolute;
     top:-6px;
     left:50px;
+  }
+  .cta-button .search {
+    margin-bottom: 5%;
+    margin-left: 5%;
   }
   .filter-specs p , .slider{
     margin-left: 5%;
