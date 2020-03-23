@@ -70,35 +70,40 @@ main {
 .fa-stack > * {
   margin-right: 10%;
 }
+
 .item-count {
   position: absolute;
-    top: 55%;
-    left: -25%;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    padding: 2px;
-    background: white;
-    border: 2px solid white;
-    color: black;
-    text-align: center;
-    font: 12px Arial, sans-serif;
+  top: 55%;
+  left: -25%;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  padding: 2px;
+  background: white;
+  border: 2px solid white;
+  color: black;
+  text-align: center;
+  font: 12px Arial, sans-serif;
 }
+
 .logo-and-text {
   display: flex;
   margin-left: 3%;
 }
+
 .logo-and-text h4 {
   color: white;
   font-weight: 700;
   margin-left: 1%;
   margin-top: 4%;
 }
+
 .logo-and-text img {
   width: 40px;
   height: 40px;
   color: white;
 }
+
 @media only screen and (max-width: 767px) {
   .nav-links .page-links {
     display: none;
@@ -139,10 +144,12 @@ main {
     display: flex;
     justify-content: space-evenly;
   }
+
   .logo-and-text img {
     width: 55px;
     height: 55px;
   }
+
   .logo-and-text h4 {
     font-size: 20px;
   }
@@ -187,7 +194,7 @@ main {
   font-size: 12px;
   color: white;
   margin-bottom: 0;
-  margin-top: 1% ;
+  margin-top: 1%;
 }
 
 .cta-button button {
