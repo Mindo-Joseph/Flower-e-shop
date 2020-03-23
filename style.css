@@ -139,6 +139,13 @@ main {
     display: flex;
     justify-content: space-evenly;
   }
+  .logo-and-text img {
+    width: 55px;
+    height: 55px;
+  }
+  .logo-and-text h4 {
+    font-size: 20px;
+  }
 
   .page-links ul li {
     list-style-type: none;
