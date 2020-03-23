@@ -583,12 +583,13 @@ footer {
   font-size: 20px;
 }
 
-.product p {
+.product h3 {
   margin-left: 4%;
 }
 
-.upper-container h3 {
+.upper-container h1 {
   margin-left: 4%;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -703,7 +704,7 @@ footer {
     margin-left: 5%;
   }
 
-  .filter-specs p,
+  .filter-specs h4,
   .slider {
     margin-left: 5%;
   }
