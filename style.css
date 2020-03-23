@@ -69,13 +69,21 @@ main {
 .fa-stack > * {
   margin-right: 10%;
 }
-
-.logo p {
+.logo-and-text {
+  display: flex;
+  margin-left: 3%;
+}
+.logo-and-text h4 {
   color: white;
   font-weight: 700;
-  margin-left: 14%;
+  margin-left: 1%;
+  margin-top: 4%;
 }
-
+.logo-and-text img {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
 @media only screen and (max-width: 767px) {
   .nav-links .page-links {
     display: none;
