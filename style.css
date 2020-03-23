@@ -126,7 +126,7 @@ main {
     display: grid;
     grid-column: 6 / -1;
   }
-
+  
   .nav-links-parent {
     display: flex;
     justify-content: space-evenly;
