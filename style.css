@@ -62,12 +62,27 @@ main {
 
 .fa-bars,
 .fa-heart,
-.fa-shopping-cart {
+.fa-shopping-cart,
+.item-count {
   color: white;
 }
 
 .fa-stack > * {
   margin-right: 10%;
+}
+.item-count {
+  position: absolute;
+    top: 55%;
+    left: -25%;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    background: white;
+    border: 2px solid white;
+    color: black;
+    text-align: center;
+    font: 12px Arial, sans-serif;
 }
 .logo-and-text {
   display: flex;
