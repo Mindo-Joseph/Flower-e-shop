@@ -179,6 +179,8 @@ main {
 .small-description h6 {
   font-size: 12px;
   color: white;
+  margin-bottom: 0;
+  margin-top: 1% ;
 }
 
 .cta-button button {
