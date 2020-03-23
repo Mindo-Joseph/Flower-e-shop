@@ -171,12 +171,12 @@ main {
   grid-row: 2 / -1;
 }
 
-.title h3 {
+.title h1 {
   color: white;
   font-size: 18px;
 }
 
-.small-description h6 {
+.small-description h2 {
   font-size: 12px;
   color: white;
   margin-bottom: 0;
@@ -329,7 +329,7 @@ main {
     margin-left: 4%;
   }
 
-  .brides h3 {
+  .brides h2 {
     color: white;
     margin-left: 4%;
   }
@@ -436,7 +436,7 @@ main {
   margin-bottom: 0;
 }
 
-.user-feedback h4 {
+.user-feedback h2 {
   color: white;
   margin-left: 4%;
 }
