@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: white;">
+
+    <header style="background-color: rgb(98,195,17) ;">
+        <nav class="main-nav">
+            <div class="logo">
+                <div class="logo-and-text">
+                    <img src="img/logo2.png" alt="logo">
+                    <h4>Flowery Flowers</h4>
+                </div>
+
+            </div>
+            <div class="nav-links">
+                <div class="nav-links-parent">
+                    <div class="page-links">
+                        <ul>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="other-links">
+                        <div class="nav-logo">
+                            <span class=" bars fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-bars fa-stack-1x"></i>
+                            </span>
+        
+                        </div>
+                        <div class="icons">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-heart fa-stack-1x"></i>
+                            </span>
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x icon-background-cart"></i>
+                                <i class="fa fa-shopping-cart fa-stack-1x"></i>
+                                <i class="item-count">
+                                    3
+                                </i>
+                                
+                            </span>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+                
+
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="upper-container">
+            <h1>Some of the available products</h1>
+            <button class="filter-button">
+                <span>
+                    <i class="fa fa-filter fa-lg" aria-hidden="true">    Set filters</i>
+                    
+                </span>
+            </button>
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <div class="product-cards-container carousel" data-flickity='{ "wrapAround": true }'>
+            <div class="product carousel-cell">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <a href="product-item.html"><img class="product-image" src="img/product1.png" alt="image"></a>
+                <h3>Exclusive flower</h3>
+                <div class="sizes">
+                   <button class="sizes-btn first">10</button>
+                   <button class="sizes-btn">15</button>
+                   <button class="sizes-btn">20</button>
+                </div>
+                <div class="price">
+                    <p>$320</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+
+
+            </div>
+            <div class="product carousel-cell">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <a href="product-item.html"><img class="product-image" src="img/flower2.png" alt="image"></a>
+                <h3>Exclusive flower</h3>
+                <div class="sizes">
+                   <button class="sizes-btn first">10</button>
+                   <button class="sizes-btn">15</button>
+                   <button class="sizes-btn">20</button>
+                </div>
+                <div class="price">
+                    <p>$320</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+
+
+            </div>
+            <div class="product carousel-cell">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <a href="product-item.html"><img class="product-image" src="img/flower4.png" alt="image"></a>
+                <p>Exclusive flower</p>
+                <div class="sizes">
+                   <button class="sizes-btn first">10</button>
+                   <button class="sizes-btn">15</button>
+                   <button class="sizes-btn">20</button>
+                </div>
+                <div class="price">
+                    <p>$320</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+
+
+            </div>
+            <div class="product carousel-cell">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <a href="product-item.html"><img class="product-image" src="img/product1.png" alt="image"></a>
+                <h3>Exclusive flower</h3>
+                <div class="sizes">
+                   <button class="sizes-btn first">10</button>
+                   <button class="sizes-btn">15</button>
+                   <button class="sizes-btn">20</button>
+                </div>
+                <div class="price">
+                    <p>$320</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+
+
+            </div>
+            <div class="product carousel-cell">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <img class="product-image" src="img/product1.png" alt="image"/>
+                <h3>Exclusive flower</h3>
+                <div class="sizes">
+                   <button class="sizes-btn first">10</button>
+                   <button class="sizes-btn">15</button>
+                   <button class="sizes-btn">20</button>
+                </div>
+                <div class="price">
+                    <p>$320</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Items present in desktop and tablet  -->
+        <div class="desktop-and-tablet-items">
+            <h3>.</h3>
+            <section class="filter-tab">
+                <div class="filter-specs">
+                    <h4>Prices</h4>
+                    <div class="slider">
+                        <div class="track">
+                        </div>
+                    </div>
+                    <div class="thumb"></div>
+                    <div class="thumb"></div>
+                    <div class="prices-box">
+                        <input type="text" name="From" id="price-from">
+                        <input type="text" name="From" id="price-to">
+                    </div>
+                    <h4>Colors: </h4>
+                    <div class="colors">
+                    
+                        <div class="colour green"></div>
+                        <div class="colour red"></div>
+                        <div class="colour pink"></div>
+                        <div class="colour aqua"></div>
+                    </div>
+                    <h4>Number of roses</h4>
+                    <div class="number-roses">
+                        <div class="items-check">
+                            <input id="checkbox" type="checkbox"/><label for="checkbox">10 roses</label>
+        
+                        </div>
+                        
+                        <div class="items-check">
+                            <input id="checkbox1" type="checkbox"/><label for="checkbox">15 roses</label>
+        
+                        </div>
+                        <div class="items-check">
+                            <input id="checkbox2" type="checkbox"/><label for="checkbox">20 roses</label>
+        
+                        </div>
+                        <div class="items-check">
+                            <input id="checkbox3" type="checkbox"/><label for="checkbox">25 roses</label>
+        
+                        </div>
+    
+                    </div>
+                    
+    
+                    <h4>Filter by </h4>
+                    <div class="items-check">
+                        <input id="checkbox4" type="checkbox"/><label for="checkbox">Date</label>
+    
+                    </div>
+                    
+                    <div class="items-check">
+                        <input id="checkbox12" type="checkbox"/><label for="checkbox">Price</label>
+    
+                    </div>
+                    <div class="items-check">
+                        <input id="checkbox21" type="checkbox"/><label for="checkbox">Reviews</label>
+    
+                    </div>
+                    <div class="items-check">
+                        <input id="checkbox31" type="checkbox"/><label for="checkbox">Sales</label>
+    
+                    </div>
+                    <div class="cta-button">
+                        <button class="search">Search</button>
+                    </div>
+    
+    
+    
+    
+    
+    
+                </div>
+    
+            </section>
+            <section class="products-tab">
+                <h3>.</h3>
+                <div class="display-products">
+                    <div class="product carousel-cell">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <a href="product-item.html"><img class="product-image" src="img/flower5.jpeg" alt="image"></a>
+                        <h3>Exclusive flower</h3>
+                        <div class="sizes">
+                           <button class="sizes-btn first">10</button>
+                           <button class="sizes-btn">15</button>
+                           <button class="sizes-btn">20</button>
+                        </div>
+                        <div class="price">
+                            <p>$320</p>
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+        
+        
+                    </div>
+                    <div class="product carousel-cell">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <a href="product-item.html"><img class="product-image" src="img/flower6.png" alt="image"></a>
+                        <h3>Exclusive flower</h3>
+                        <div class="sizes">
+                           <button class="sizes-btn first">10</button>
+                           <button class="sizes-btn">15</button>
+                           <button class="sizes-btn">20</button>
+                        </div>
+                        <div class="price">
+                            <p>$320</p>
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+        
+        
+                    </div>
+                    <div class="product carousel-cell">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <a href="product-item.html"><img class="product-image" src="img/flower5.jpeg" alt="image"></a>
+                        <h3>Exclusive flower</h3>
+                        <div class="sizes">
+                           <button class="sizes-btn first">10</button>
+                           <button class="sizes-btn">15</button>
+                           <button class="sizes-btn">20</button>
+                        </div>
+                        <div class="price">
+                            <p>$320</p>
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+        
+        
+                    </div>
+                    <div class="product carousel-cell">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <a href="product-item.html"><img class="product-image" src="img/flower7.png" alt="image"></a>
+                        <h3>Exclusive flower</h3>
+                        <div class="sizes">
+                           <button class="sizes-btn first">10</button>
+                           <button class="sizes-btn">15</button>
+                           <button class="sizes-btn">20</button>
+                        </div>
+                        <div class="price">
+                            <p>$320</p>
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+        
+        
+                    </div>
+                    
+                </div>
+    
+            </section>
+
+        </div>
+        
+    </main>
+</body>
+</html>
