@@ -12,7 +12,7 @@ This is a web implementation of  a flower e shop and is the capstone project in 
 
 ## Live Demo
 
-To be added...
+https://mindo-joseph.github.io/Flower-e-shop/
 
 
 👤 **Author**
